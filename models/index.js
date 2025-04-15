@@ -13,11 +13,7 @@ const sequelize = new Sequelize(
 
 // Cargar modelos
 
-const Task = require("./Task")(sequelize);
-
 // Exportar los modelos y la instancia de Sequelize
 module.exports = {
   sequelize,
-
-  Task,
 };

@@ -1,1 +1,12 @@
-{ "dependencies": { "express": "^4.21.0", "mysql2": "^3.11.3", "sequelize": "^6.37.4" } }
+{
+  "scripts": {
+    "dev": "bun server.js",
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.4"
+  }
+}
+
